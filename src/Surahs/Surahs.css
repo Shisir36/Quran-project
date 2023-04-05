@@ -1,0 +1,29 @@
+/* Keyframe animation */
+@keyframes color-cycle {
+    0% {
+      color: rgba(106, 216, 166, 1);
+    }
+    25% {
+      color: rgba(15, 130, 79, 1);
+    }
+    50% {
+      color: skyblue;
+    }
+    75% {
+      color: rgba(15, 130, 79, 1);
+    }
+    100% {
+      color: rgba(106, 216, 166, 1);
+    }
+  }
+  
+  /* Styling the heading tag */
+  h1 {
+    text-align: center;
+    color: rgba(106, 216, 166, 1); /* Starting color of the font */
+    background-color: rgba(0, 0, 0, 0); /* Transparent background color */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    animation: color-cycle 5s linear infinite; /* Applying the animation */
+  }
+  
